@@ -1,0 +1,98 @@
+{
+  "posts-images/20251203/20251203.png": {
+    "mtime": 1766480275558,
+    "size": 33969,
+    "hash": "15f76e241423a76ebb8157a7705b688e",
+    "optimizedAt": "2025-12-23T08:57:55.559Z",
+    "originalSize": 41054,
+    "optimizedSize": 33969,
+    "dimensions": {
+      "original": "539x463",
+      "optimized": "539x463"
+    }
+  },
+  "posts-images/20251204/404.png": {
+    "mtime": 1766480275572,
+    "size": 25639,
+    "hash": "edc8ad8e2d1c8c4a7090ecc127ff0112",
+    "optimizedAt": "2025-12-23T08:57:55.572Z",
+    "originalSize": 26585,
+    "optimizedSize": 25639,
+    "dimensions": {
+      "original": "300x168",
+      "optimized": "300x168"
+    }
+  },
+  "posts-images/20251204/munger.png": {
+    "mtime": 1766480275686,
+    "size": 82138,
+    "hash": "87bfb77b3a93419fd3d64d084c854366",
+    "optimizedAt": "2025-12-23T08:57:55.686Z",
+    "originalSize": 97763,
+    "optimizedSize": 82138,
+    "dimensions": {
+      "original": "503x471",
+      "optimized": "503x471"
+    }
+  },
+  "posts-images/20251214/20251214.png": {
+    "mtime": 1766480275832,
+    "size": 337351,
+    "hash": "9fa73f9b8ecf4dce3f6cfff23e257b77",
+    "optimizedAt": "2025-12-23T08:57:55.832Z",
+    "originalSize": 346839,
+    "optimizedSize": 337351,
+    "dimensions": {
+      "original": "1010x852",
+      "optimized": "1010x852"
+    }
+  },
+  "posts-images/20251217/20251217.jpeg": {
+    "mtime": 1766480275912,
+    "size": 94949,
+    "hash": "548136b3a422e520c92022691a263574",
+    "optimizedAt": "2025-12-23T08:57:55.912Z",
+    "originalSize": 95347,
+    "optimizedSize": 94949,
+    "dimensions": {
+      "original": "1290x1290",
+      "optimized": "1290x1290"
+    }
+  },
+  "posts-images/20251218/20251218-2.png": {
+    "mtime": 1766480276009,
+    "size": 24579,
+    "hash": "c0b55f7d4456c19c2b3ae407d2a02803",
+    "optimizedAt": "2025-12-23T08:57:56.009Z",
+    "originalSize": 26522,
+    "optimizedSize": 24579,
+    "dimensions": {
+      "original": "1602x1124",
+      "optimized": "1602x1124"
+    }
+  },
+  "posts-images/20251218/20251218.png": {
+    "mtime": 1766480276321,
+    "size": 1016929,
+    "hash": "7f0fd00cdd39e079767648383dff0eb2",
+    "optimizedAt": "2025-12-23T08:57:56.323Z",
+    "originalSize": 1086651,
+    "optimizedSize": 1016929,
+    "dimensions": {
+      "original": "1418x1416",
+      "optimized": "1418x1416"
+    }
+  },
+  "posts-images/20251219/20251219.png": {
+    "mtime": 1766480276390,
+    "size": 58225,
+    "hash": "52d8ef92737df007743401cec04f2f73",
+    "optimizedAt": "2025-12-23T08:57:56.391Z",
+    "originalSize": 65161,
+    "optimizedSize": 58225,
+    "dimensions": {
+      "original": "820x1176",
+      "optimized": "820x1176"
+    }
+  }
+}

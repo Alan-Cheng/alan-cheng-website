@@ -1,0 +1,172 @@
+[
+  {
+    "id": "20251219",
+    "title": "刷題紀錄 - Container With Most Water",
+    "date": "2025-12-19",
+    "cat": "LeetCode",
+    "preview": "今年快要結束了，回顧一下讀過的書籍，依然是工具書跟小說居多。 如果說讀工具書是為了興趣跟工作成長，讀小說就是為了讓僅存的注意力遠離短影音跟各種社群媒體的摧殘，否則拿起手機就想刷 Reels、看 Youtube（我真的超愛看廢片），空虛到懷疑人生。...",
+    "path": "/posts/20251219.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251218",
+    "title": "刷題紀錄 - House Robber",
+    "date": "2025-12-18",
+    "cat": "LeetCode",
+    "preview": "公司外的行道樹全部染成金黃色，從 12F 能一眼望盡敦化南路、文湖線跟整片樹海。好奇查了下是什麼樹，才知道這段是號稱台北最美「欒樹大道」。 工作之餘也要盡情欣賞生活周遭的風景。 隨手拍一下趕快要繼續射飛鏢了。 難度: Medium 題目連結:...",
+    "path": "/posts/20251218.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251217",
+    "title": "刷題紀錄 - Find K Pairs with Smallest Sums",
+    "date": "2025-12-17",
+    "cat": "LeetCode",
+    "preview": "廢話時間： 星期三固定要進公司，下午開完會就是 Happy 的飛鏢時間。 這週的飛鏢大師是高級工程師 Leo哥。（一開始他沒這麼強啊WTF？） 嚴重懷疑他平常有在偷練，難怪最近寫的 Code 變少了。 開玩笑的，應該沒有，應該。 !射飛鏢 難度: Medium 題目連結:...",
+    "path": "/posts/20251217.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251216",
+    "title": "刷題紀錄 - Sort List",
+    "date": "2025-12-16",
+    "cat": "LeetCode",
+    "preview": "只要刷到 Linked List 的題目，頭整個就痛起來。指標串來串去搞得我好亂啊。 但知道弱點就要想辦法克服，這才是大師應有的素養。 !功夫 難度: Medium 題目連結: https://leetcode.com/problems/sort-list 思考過程 題目描述其實很簡單，給一個...",
+    "path": "/posts/20251216.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251215",
+    "title": "刷題紀錄 - N-Queens",
+    "date": "2025-12-15",
+    "cat": "LeetCode",
+    "preview": "今天突然心血來潮想看《鐵達尼號 Titanic》，明明是大熱門電影但卻從來沒看過。 李奧納多皮卡丘真D帥。 !鐵達尼號 Titanic 難度: Hard 題目連結: https://leetcode.com/problems/n-queens 思考過程 N-Queens...",
+    "path": "/posts/20251215.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251214",
+    "title": "刷題紀錄 - Surrounded Regions",
+    "date": "2025-12-14",
+    "cat": "LeetCode",
+    "preview": "今天氣溫降到12度，冷到不想出門吃飯也不想去健身房。 洗澡的時候突然想起幾天前在清邁看到的長頸族⋯⋯他們脖子上還戴著銅環不是超冰？ 但清邁應該不會那麼冷（？） 難度：Medium 題目連結：https://leetcode.com/problems/surrounded-regions 思考過程...",
+    "path": "/posts/20251214.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251213",
+    "title": "刷題紀錄 - Unique Number of Occurrences",
+    "date": "2025-12-13",
+    "cat": "LeetCode",
+    "preview": "昨天下雨天，穿鞋底磨平的 Crocs 洞洞鞋出門 be like： 難度：Easy 題目連結：https://leetcode.com/problems/unique-number-of-occurrences 思考過程 要計算每個元素出現的次數，如果每個元素出現的次數都不同，那就回傳...",
+    "path": "/posts/20251213.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251212",
+    "title": "刷題紀錄 - Min Cost Climbing Stairs",
+    "date": "2025-12-12",
+    "cat": "LeetCode",
+    "preview": "這週只上三天班，又來到歡樂星期五，It's Friday！那就簡單刷一題 Easy 的。 好想吃 Friday 的烤豬肋排。 難度：Easy 題目連結：https://leetcode.com/problems/min-cost-climbing-stairs 思考過程 給一個 cost =...",
+    "path": "/posts/20251212.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251211",
+    "title": "刷題紀錄 - Delete Node in a BST",
+    "date": "2025-12-11",
+    "cat": "LeetCode",
+    "preview": "上午把自己開發的功能上線。 沒想到在生產環境直接炸了。 兩個維運工程師陪我搞了一整個上午，快到十二點的時候超過系統上線時間，直接 rollback = 做了半天白工。 難度：Medium 題目連結：https://leetcode.com/problems/delete-node-in-a-bst...",
+    "path": "/posts/20251211.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251210",
+    "title": "刷題紀錄 - Binary Tree Right Side View",
+    "date": "2025-12-10",
+    "cat": "LeetCode",
+    "preview": "上一整天班還要回來刷題真D累，精神狀態👇🏻 !累累 難度：Medium 題目連結：https://leetcode.com/problems/binary-tree-right-side-view 思考過程 題目直接寫了 BFS（廣度優先搜尋），希望面試也有這麼好心的提示...",
+    "path": "/posts/20251210.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251209",
+    "title": "刷題紀錄 - Leaf-Similar Trees",
+    "date": "2025-12-09",
+    "cat": "LeetCode",
+    "preview": "從清邁回來了，明天又是開心當碼農的一天。 !泰國爽 難度：Easy 題目連結：https://leetcode.com/problems/leaf-similar-trees 思考過程 這題給了兩棵樹(root1 and root2)，目的是要找兩棵樹的葉是否從左到右相同。...",
+    "path": "/posts/20251209.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251205",
+    "title": "刷題紀錄 - Odd Even Linked List",
+    "date": "2025-12-05",
+    "cat": "LeetCode",
+    "preview": "準備搭凌晨的班機去清邁爽，怒刷一題！ !清邁 難度：Medium 題目連結：https://leetcode.com/problems/odd-even-linked-list 思考過程 給一個鏈結串列的頭 (head)，要把位置是奇數的放在前面，偶數的放在後面 例如：[a(1), b(2),...",
+    "path": "/posts/20251205.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251204-公告",
+    "title": "[置頂公告] 關於這個網站",
+    "date": "2025-12-04",
+    "cat": "公告",
+    "preview": "起源 > #### Alan：大家好。 > 某天在健身一時興起，去 Cloudflare 上面買了 alan-cheng.com 這個網域，但一直沒掛任何東西到上面，所以之前一直顯示 404 的錯誤畫面。 >!錯愛404 > >後來反而是把原本放在 Github Page 上的友善黑貓...",
+    "path": "/posts/20251204-公告.md",
+    "isPinned": true,
+    "pinMessage": "說明架設網站的目的、目前更新文章的方向"
+  },
+  {
+    "id": "20251204",
+    "title": "刷題紀錄 - Group Anagrams",
+    "date": "2025-12-04",
+    "cat": "LeetCode",
+    "preview": "難度：Medium 題目連結：https://leetcode.com/problems/group-anagrams 思考過程 給一串 List[str]，例如 strs = [\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]...",
+    "path": "/posts/20251204.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251203-2",
+    "title": "刷題紀錄 - Max Number of K-Sum Pairs",
+    "date": "2025-12-03",
+    "cat": "LeetCode",
+    "preview": "難度：Medium 題目連結：https://leetcode.com/problems/max-number-of-k-sum-pairs 思考過程 給個目標 k，從 nums: List[int] 中不斷挑出並移除兩個數字加起來剛好等於 k，最後輸出有幾種組合。 先把 nums...",
+    "path": "/posts/20251203-2.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251203",
+    "title": "刷題紀錄 - Maximum Number of Vowels in a Substring of Given Length",
+    "date": "2025-12-03",
+    "cat": "LeetCode",
+    "preview": "難度：Medium 題目連結：https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length 思考過程 Vowel letters：母音字母 A、Ｅ、Ｉ、Ｏ、Ｕ 要找出一個字串中，大小為 k...",
+    "path": "/posts/20251203.md",
+    "isPinned": false,
+    "pinMessage": null
+  },
+  {
+    "id": "20251202",
+    "title": "刷題紀錄 - Increasing Triplet Subsequence",
+    "date": "2025-12-02",
+    "cat": "LeetCode",
+    "preview": "難度：Medium 題目連結：https://leetcode.com/problems/increasing-triplet-subsequence 思考過程 直覺暴力解：三個指標，每個指標往後（index大的方向）搜尋。 例如 nums = [5, 1, 4, 2, 3]->[5,1,4],...",
+    "path": "/posts/20251202.md",
+    "isPinned": false,
+    "pinMessage": null
+  }
+]
