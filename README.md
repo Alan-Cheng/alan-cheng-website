@@ -68,15 +68,17 @@ flowchart LR
 - **前端顯示（作品集與文章）**
   - 首頁展示商業專案與其他 Side Project，部分專案自動從 GitHub 讀取 pinned repositories，並嘗試抓取 README 中的首張圖片作為封面。
 
-  - 文章區以 `#/articles` 作為 SPA 路由，支援：
+  ![home](https://github.com/Alan-Cheng/alan-cheng-website/blob/main/demo/home.png?raw=true)
+
+  - 文章區以 `#/articles` 作為 SPA(Single Page Application) 路由，支援：
     - 依分類（`cat`）切換、關鍵字搜尋（標題 + 內容預覽）。
     - 文章置頂（公告）與自訂置頂訊息。
     - 分頁顯示文章列表，並有 CSS 動畫與分頁功能。
+    
 
   - 單篇文章頁面：
     - 使用 `react-markdown` + `remark-math` + `rehype-katex` + `rehype-highlight`，支援 Markdown、程式碼區塊與數學公式。
-    - 依文章內容第一張圖片或預設頭像動態產生 `og:image`，優化分享卡片。
-    - 動態更新 `<title>`、`meta description`、Open Graph / Twitter Card / canonical 等 SEO 標籤。
+    ![post](https://github.com/Alan-Cheng/alan-cheng-website/blob/main/demo/post.png?raw=true)
 
   - 所有文章內容採 **Lazy Loading**：
     - 首次只載入 metadata（標題、日期、分類、預覽文字）。
@@ -89,11 +91,13 @@ flowchart LR
     - 文章列表查詢。
     - 建立新文章、更新文章、刪除文章。
     - 查詢單篇文章、查詢歷史版本、還原某個歷史版本。
+    ![admin](https://github.com/Alan-Cheng/alan-cheng-website/blob/main/demo/admin.png?raw=true)
 
   - **文章編輯介面（`components/admin/ArticleEditor.tsx`）**
     - 左側 Markdown 編輯器，右側即時預覽。
     - 支援從現有文章「複製」內容與設定，快速產生新文章草稿。
     - 儲存時會根據內容自動產生 預覽文字。
+    ![editor](https://github.com/Alan-Cheng/alan-cheng-website/blob/main/demo/admin_editor.png?raw=true)
 
   - **圖片上傳與壓縮**
     - 文章圖片由前端透過 `adminApi.uploadImage` 上傳至 **Cloudflare Worker**：
@@ -109,6 +113,7 @@ flowchart LR
 
   - **Line 通知**
     - 當有新留言時，根據留言內容，組合訊息並發送到 Line（例如：推播到個人帳號或群組）。
+    ![line_notify](https://github.com/Alan-Cheng/alan-cheng-website/blob/main/demo/line_notify.png?raw=true)
 
 - **Prerender（靜態文章頁，強化 SEO / 分享卡片）**
   - 由 `scripts/prerender-articles.ts` 負責在 build 後產生靜態 HTML
@@ -117,6 +122,7 @@ flowchart LR
       - 一般使用者會被導向 SPA 路由 `/#articles/{id}`，由前端載入真正內容。
 
   - **設計原因：** 為了讓搜尋引擎與社群媒體分享可預覽文章內容。
+  ![prerender](https://github.com/Alan-Cheng/alan-cheng-website/blob/main/demo/prerender.png?raw=true)
 
 - **Cloudflare Pages 自動部署與重新建置**
   - `supabase/functions/admin-api/index.ts` 在建立 / 更新文章成功後，會呼叫 Cloudflare Pages 的 deploy webhook：
