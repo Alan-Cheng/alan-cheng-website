@@ -65,10 +65,10 @@ flowchart LR
 
 ## 主要功能總覽
 
-- **前端顯示（作品集與文章）**
+- **前端顯示（作品集與文章），支援黑暗模式**
   - 首頁展示商業專案與其他 Side Project，部分專案自動從 GitHub 讀取 pinned repositories，並嘗試抓取 README 中的首張圖片作為封面。
 
-  ![home](https://github.com/Alan-Cheng/alan-cheng-website/blob/main/demo/home.png?raw=true)
+  ![home](https://github.com/Alan-Cheng/alan-cheng-website/blob/main/demo/dark_home.jpg?raw=true)
 
   - 文章區以 `#/articles` 作為 SPA(Single Page Application) 路由，支援：
     - 依分類（`cat`）切換、關鍵字搜尋（標題 + 內容預覽）。
