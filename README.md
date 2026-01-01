@@ -39,12 +39,15 @@ flowchart LR
         K["Cloudflare Pages<br>靜態網站部署"]
         L["Cloudflare R2<br>文章圖片儲存"]
         M["Cloudflare Pages<br>重新建置"]
+        O["Cloudflare KV<br>文章 metadata 快取"]
   end
     A --> B
     D --> B
     B --> C1 & C2
     G --> H & I & J
-    C1 --> F
+    C1 -->|先查快取| O
+    O -.->|沒有快取| F
+    C1 -->|讀取留言| F
     C2 --> E & H & L
     H --> F
     I --> M
@@ -59,16 +62,17 @@ flowchart LR
     style K fill:#c8e6c9
     style L fill:#b3e5fc
     style N fill:#f8bbd0
+    style O fill:#b3e5fc
 ```
 
 ---
 
 ## 主要功能總覽
 
-- **前端顯示（作品集與文章），支援黑暗模式**
+- **前端顯示（作品集與文章）**
   - 首頁展示商業專案與其他 Side Project，部分專案自動從 GitHub 讀取 pinned repositories，並嘗試抓取 README 中的首張圖片作為封面。
 
-  ![home](https://github.com/Alan-Cheng/alan-cheng-website/blob/main/demo/dark_home.jpg?raw=true)
+  ![home](https://github.com/Alan-Cheng/alan-cheng-website/blob/main/demo/home.png?raw=true)
 
   - 文章區以 `#/articles` 作為 SPA(Single Page Application) 路由，支援：
     - 依分類（`cat`）切換、關鍵字搜尋（標題 + 內容預覽）。
